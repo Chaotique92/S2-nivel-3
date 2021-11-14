@@ -1,0 +1,279 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Navbar</title>
+	<link rel="stylesheet" href="css/bootstrap.min.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Comfortaa&family=Fira+Sans:wght@500&family=PT+Serif&family=Poppins:wght@300&family=Roboto&family=Zen+Antique&display=swap" rel="stylesheet">
+  <link rel="apple-touch-icon" href="img/favicon.ico">
+  <link rel="stylesheet" href="sass/custom.css">
+</head>
+
+
+	<nav class="navbar navbar-expand-md navbar-expand-lg navbar-light bg-light fixed-top">
+		<div class="container">
+            <a href="#" class="navbar-brand"><img src="img/logo-bookmark.svg"  alt="" width="200" height=""></a>
+
+			<!-- Boton para el menu movil -->
+			<button 
+				class="navbar-toggler"
+				type="button"
+				data-bs-toggle="collapse"
+				data-bs-target="#menu"
+				aria-controls="menu"
+				aria-expanded="false"
+				aria-label="Mostrar / Ocultar Menu"
+			>
+				<span class="navbar-toggler-icon"></span>
+			</button>
+
+			<!-- Menu de navegacion -->
+			<div class="collapse navbar-collapse" id="menu">
+				<ul class="navbar-nav ms-auto">
+					
+                    <li class="nav-item">
+                        <a href="#" class="nav-link hovr1">FEATURES</a>
+                    </li>
+    
+                    <li class="nav-item">
+                        <a href="#" target="_blank" class="nav-link hovr1">PRICING</a>
+                    </li>
+    
+                    <li class="nav-item">
+                        <a href="#" class="nav-link hovr1">CONTACT</a>
+                    </li>
+    
+                    <li class="nav-item">
+                        <button type="button" class="btn btn-secondary ms-1 boton1">LOGIN</button>
+                    </li>
+				</ul>
+			</div>
+		</div>
+	</nav>
+
+
+    <div class="container"> 
+      <div class="row "> 
+       <div class="col-12 col-sm-12 col-md-6 col-lg-5 pt-4 s1 extension1">
+         <h1 class="pt-5">A Simple Bookmark Manager</h1>
+         <p>A clean and simple interface to organize your favourite websites. Open a new browser tab and see your sites load instantly .Try it for free.</p>
+         <div>
+          <button class="btn btn-primary boton2">Get it on Chrome</button>
+          <button class="btn btn-light boton3">Get it on Firefox</button>
+         </div>
+       </div>
+           
+            <div class="col-12 col-sm-12 col-md-6 col-lg-6 ps-lg-5 ms-lg-5 foto1">
+                <img class=" ms-lg-5 img1" src="img/illustration-hero.svg">
+                <div class="caja-azul">
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+ <div class="container"> 
+    <div class="row d-flex justify-content-center mt-5"> 
+     <div class="col-12 col-sm-12 col-md-7 col-lg-6 mt-5 features">
+        <h2>Features</h2>
+        <p>Our aim is to make it quick and easy for you to access your favourite websites. Your bookmarks sync between your devices so you can access them on the go.</p>
+     </div>
+    </div>
+
+    <div class="row mt-5 tabs1">
+        <div class="col-12 col-sm-12 col-md-12 col-lg-6">
+            <ul class="nav nav-tabs">
+                <li class="nav-item"><a href="#" class="nav-link">Simple Bookmarking</a></li>
+                <li class="nav-item"><a href="#" class="nav-link">Speedy Searching</a></li>
+                <li class="nav-item"><a href="#" class="nav-link">Easy Sharing</a></li>
+            </ul>
+        </div>
+    </div>
+</div>
+
+<div class="container mt-5">
+    <div class="row">
+     <div class="col-12 col-sm-12 col-md-6 col-lg-6">
+        <img class="img2" src="img/illustration-features-tab-1.svg">
+        <div class="caja-azul2">
+      </div>
+     </div>
+
+        <div class="col-12 col-sm-12 col-md-6 col-lg-6 pt-5 section2">
+            <h2 class="pt-3">Bookmark in one click</h2>
+            <p>Organize your bookmarks however you like. Our simple drag-and-drop interface gives you complete control over how you manage your favourite sites.</p>
+            <button class="btn btn-primary boton2">More info</button>
+        </div>
+    </div>
+</div>
+
+<div class="container"> 
+    <div class="row d-flex justify-content-center"> 
+     <div class="col-12 col-sm-12 col-md-8 col-lg-5 pt-5 extension">
+        <h2 class="pt-5">Download the extension</h2>
+        <p>We've got more browsers in the pipeline. Please do let us know if you've got a favourite you'd like uss to prioritize.</p>
+     </div>
+    </div>
+    </div>
+
+<div class="container chrome-container">
+    <div class="row col-12 col-sm-12 col-md-4 col-lg-3 shadow-sm p-3 bg-body rounded chrome">
+        <div>
+            <img class="pt-4 pb-4" src="img/logo-chrome.svg">
+            <h3>Add to Chrome</h3>
+            <p>Minimum version 62</p>
+            <img class="pt-4 pb-4 img3" src="img/bg-dots.svg">
+            <button class="btn btn-primary boton2 btn2">Add & Install Extension</button>
+        </div>
+    </div>
+
+    <div class="row col-12 col-sm-12 col-md-4 col-lg-3 shadow-sm p-3 bg-body rounded mx-lg-5 mt-4 firefox">
+        <div>
+            <img class="pt-4 pb-4" src="img/logo-firefox.svg">
+            <h3>Add to Firefox</h3>
+            <p>Minimum version 55</p>
+            <img class="pt-4 pb-4 img3" src="img/bg-dots.svg">
+            <button class="btn btn-primary boton2">Add & Install Extension</button>
+        </div>
+    </div>
+
+
+<div class="row col-12 col-sm-12 col-md-4 col-lg-3 shadow-sm p-3 bg-body rounded mt-5 opera">
+    <div>
+        <img class="pt-4 pb-4" src="img/logo-opera.svg">
+        <h3>Add to Opera</h3>
+        <p>Minimum version 46</p>
+        <img class="pt-4 pb-4 img3" src="img/bg-dots.svg">
+        <button class="btn btn-primary boton2">Add & Install Extension</button>
+    </div>
+</div>
+</div>
+
+
+<div class="container"> 
+  <div class="row d-flex justify-content-center"> 
+   <div class="col-12 col-sm-12 col-md-8 col-lg-5 pt-5 extension">
+      <h2 class="pt-5">Frequently Asked Questions</h2>
+      <p>Here are some of our FAQs. If you have any other questions you'd like answered please feel free to email us.</p>
+   </div>
+  </div>
+</div>
+
+
+<div class="container"> 
+    <div class="accordion col-12 col-sm-12 col-md-12 col-lg-12 acordeon" id="accordionExample">
+        <div class="accordion-item">
+          <h2 class="accordion-header" id="headingOne">
+            <button class="accordion-button a-hovr" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+              What is Bookmark?
+            </button>
+          </h2>
+          <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne" data-bs-parent="#accordionExample">
+            <div class="accordion-body">
+              This is the first item's accordion body. It is shown by default, until the collapse plugin adds the appropriate classes that we use to style each element. These classes control the overall appearance, as well as the showing and hiding via CSS transitions. You can modify any of this with custom CSS or overriding our default variables. It's also worth noting that just about any HTML can go within the <code>.accordion-body</code>, though the transition does limit overflow.
+            </div>
+          </div>
+        </div>
+        <div class="accordion-item">
+          <h2 class="accordion-header" id="headingTwo">
+            <button class="accordion-button collapsed a-hovr" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+              How can l request a new browser?
+            </button>
+          </h2>
+          <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo" data-bs-parent="#accordionExample">
+            <div class="accordion-body">
+             This is the second item's accordion body. It is hidden by default, until the collapse plugin adds the appropriate classes that we use to style each element. These classes control the overall appearance, as well as the showing and hiding via CSS transitions. You can modify any of this with custom CSS or overriding our default variables. It's also worth noting that just about any HTML can go within the <code>.accordion-body</code>, though the transition does limit overflow.
+            </div>
+          </div>
+        </div>
+        <div class="accordion-item">
+          <h2 class="accordion-header" id="headingThree">
+            <button class="accordion-button collapsed a-hovr" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+              Is there a mobile app?
+            </button>
+          </h2>
+          <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree" data-bs-parent="#accordionExample">
+            <div class="accordion-body">
+               is the third item's accordion body. It is hidden by default, until the collapse plugin adds the appropriate classes that we use to style each element. These classes control the overall appearance, as well as the showing and hiding via CSS transitions. You can modify any of this with custom CSS or overriding our default variables. It's also worth noting that just about any HTML can go within the <code>.accordion-body</code>, though the transition does limit overflow.
+            </div>
+          </div>
+        </div>
+        <div class="accordion-item">
+            <h2 class="accordion-header" id="headingThree">
+              <button class="accordion-button collapsed a-hovr" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                What about other Chromium browsers?
+              </button>
+            </h2>
+            <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree" data-bs-parent="#accordionExample">
+              <div class="accordion-body">
+                This is the third item's accordion body. It is hidden by default, until the collapse plugin adds the appropriate classes that we use to style each element. These classes control the overall appearance, as well as the showing and hiding via CSS transitions. You can modify any of this with custom CSS or overriding our default variables. It's also worth noting that just about any HTML can go within the <code>.accordion-body</code>, though the transition does limit overflow.
+              </div>
+            </div>
+          </div>
+        </div>    
+          <div class="m-5 boton11">
+           <button class="btn btn-primary col-12 col-sm-12 col-md-2 col-lg-1 btn11">More info</button>
+          </div> 
+  </div>
+
+
+  <form class="form needs-validation " novalidate>
+    <div class="container contform">
+      <div class="row"> 
+    <div class="col-12 col-sm-12 col-md-12 col-lg-12">  
+      <div class="form-text text-light">3 5 , 0 0 0 + &nbsp; A L R E A D Y &nbsp; J O I N E D</div>
+       <div class="staydiv">
+        <h2 class="text-light m-4 stay">Stay up-to-date with what we're doing</h2>
+       </div>
+
+
+      <div class="col-md-6 position-relative contact">
+        <label for="validationTooltip05" class="form-label"></label>
+        <input placeholder="Enter your email address" type="text" class="form-control" id="validationTooltip05" required>
+        <div class="invalid-tooltip">
+          Whoops, make sure it's an email
+        </div>
+        <button class="btn  btn-secondary  mt-lg-4 boton12" type="submit">Contact Us</button>
+      </div>
+     </div>
+  </div>
+  </div>
+</form>
+  
+
+
+<footer>
+<nav class="navbar navbar-expand-lg navbar-dark bg-dark footer">
+  <div class="container foot">
+    <a href="#" class="navbar-brand f-ul"><img src="img/logo-bookmark.svg"  alt="" width="200" height=""></a>
+
+      <ul class="navbar-nav me-auto mb-2 mb-md-0 mb-lg-0 ">
+        <li class="nav-item">
+          <a href="#" class="nav-link hovr1">FEATURES</a>
+      </li>
+  
+      <li class="nav-item">
+          <a href="#" target="_blank" class="nav-link hovr1">PRICING</a>
+      </li>
+  
+      <li class="nav-item">
+          <a href="#" class="nav-link hovr1">CONTACT</a>
+      </li>
+      </ul>
+
+      <form action="" class="d-flex">
+        <a href="#" class="navbar-brand me-4 hovr2"><img src="img/icon-facebook.svg"  alt="" width="30" height=""></a>
+        <a href="#" class="navbar-brand hovr2"><img src="img/icon-twitter.svg"  alt="" width="30" height=""></a>
+      </form>
+  </div>
+</nav>
+</footer>
+
+  <script src="js/index.js"></script>
+	<script src="js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
